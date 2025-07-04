@@ -1,0 +1,164 @@
+{
+  "resourceType": "Bundle",
+  "id": "90f57539-9eeb-4d78-870b-4ebe2ac4b11f",
+  "meta": {
+    "lastUpdated": "2025-07-03T19:50:26.432+00:00"
+  },
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hapi.fhir.org/baseR4/Patient?_count=5"
+    },
+    {
+      "relation": "next",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=90f57539-9eeb-4d78-870b-4ebe2ac4b11f&_getpagesoffset=5&_count=5&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/597255",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "597255",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-03T22:52:05.235+00:00",
+          "source": "#S9AHbHX6TtGFYjl0"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">First Name <b>LAST NAME </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>akhazane3</td></tr><tr><td>Address</td><td><span>14 Elm Street </span><br/><span>Atlanta </span><span>Georgia </span><span>United States </span></td></tr><tr><td>Date of birth</td><td><span>16 March 1995</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "value": "akhazane3"
+          }
+        ],
+        "name": [
+          {
+            "family": "Last Name",
+            "given": [
+              "First Name"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1 999-999-999",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1995-03-16",
+        "address": [
+          {
+            "line": [
+              "14 Elm Street"
+            ],
+            "city": "Atlanta",
+            "state": "Georgia",
+            "postalCode": "300318",
+            "country": "United States"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/597256",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "597256",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2020-02-03T23:27:59.007+00:00",
+          "source": "#C5H8ujI8Jr5R4Gn8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">First Name <b>LAST NAME </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>akhazane3</td></tr><tr><td>Address</td><td><span>20 Drawbridge Street </span><br/><span>Des Moines </span><span>Iowa </span><span>United States </span></td></tr><tr><td>Date of birth</td><td><span>16 March 1995</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "value": "akhazane3"
+          }
+        ],
+        "name": [
+          {
+            "family": "Last Name",
+            "given": [
+              "First Name"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1 555-555-555",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1995-03-16",
+        "address": [
+          {
+            "line": [
+              "20 Drawbridge Street"
+            ],
+            "city": "Des Moines",
+            "state": "Iowa",
+            "postalCode": "300318",
+            "country": "United States"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/597259",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "597259",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2020-02-04T00:55:00.943+00:00",
+          "source": "#Qd5hIeGIZ6IRmcRE"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Matt <b>MAHOWALD </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>659123456</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "SSN"
+                }
+              ]
+            },
+            "value": "659123456"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Mahowald",
+            "given": [
+              "Matt"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

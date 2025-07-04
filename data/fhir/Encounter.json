@@ -1,0 +1,239 @@
+{
+  "resourceType": "Bundle",
+  "id": "460927b8-8617-49b4-b8c3-4c0d43da4d85",
+  "meta": {
+    "lastUpdated": "2025-07-03T19:50:27.433+00:00"
+  },
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hapi.fhir.org/baseR4/Encounter?_count=5"
+    },
+    {
+      "relation": "next",
+      "url": "https://hapi.fhir.org/baseR4?_getpages=460927b8-8617-49b4-b8c3-4c0d43da4d85&_getpagesoffset=5&_count=5&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/619786",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "619786",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-12T05:30:28.869+00:00",
+          "source": "#OitdyYWbfqisgJyW"
+        },
+        "subject": {
+          "reference": "Patient/619781"
+        },
+        "period": {
+          "start": "2020-02-12T05:10:28+00:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/619785",
+              "display": "Ward 1, Room a447a1bd-b1e0-45c6-ac65-b49c1fd47b23, Bed 1"
+            },
+            "status": "active",
+            "period": {
+              "start": "2020-02-12T05:10:28+00:00",
+              "end": "2020-02-12T05:15:28+00:00"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/619787",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "619787",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-12T05:30:28.934+00:00",
+          "source": "#kuq5rlkT6fuPmjoF"
+        },
+        "subject": {
+          "reference": "Patient/619782"
+        },
+        "period": {
+          "start": "2020-02-12T05:20:28+00:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/619784",
+              "display": "ER, 21f335a8-6b65-4762-943e-febdcfcb732f"
+            },
+            "status": "active",
+            "period": {
+              "start": "2020-02-12T05:20:28+00:00",
+              "end": "2020-02-12T05:25:28+00:00"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/619785",
+              "display": "Ward 1, Room a447a1bd-b1e0-45c6-ac65-b49c1fd47b23, Bed 1"
+            },
+            "status": "active",
+            "period": {
+              "start": "2020-02-12T05:25:28+00:00"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/619794",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "619794",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-12T05:30:29.571+00:00",
+          "source": "#1dg0uArrvlRsosRC"
+        },
+        "subject": {
+          "reference": "Patient/619789"
+        },
+        "period": {
+          "start": "2020-02-12T05:10:29+00:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/619793",
+              "display": "Ward 1, Room 7b6d441f-6eca-48e7-b564-215905459d5e, Bed 1"
+            },
+            "status": "active",
+            "period": {
+              "start": "2020-02-12T05:10:29+00:00",
+              "end": "2020-02-12T05:15:29+00:00"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/619795",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "619795",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-12T05:30:29.636+00:00",
+          "source": "#auaDEGvaJqhcpg9j"
+        },
+        "subject": {
+          "reference": "Patient/619790"
+        },
+        "period": {
+          "start": "2020-02-12T05:20:29+00:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/619792",
+              "display": "ER, de62551e-658b-4495-a9cf-e08da3e3fa34"
+            },
+            "status": "active",
+            "period": {
+              "start": "2020-02-12T05:20:29+00:00",
+              "end": "2020-02-12T05:25:29+00:00"
+            }
+          },
+          {
+            "location": {
+              "reference": "Location/619793",
+              "display": "Ward 1, Room 7b6d441f-6eca-48e7-b564-215905459d5e, Bed 1"
+            },
+            "status": "active",
+            "period": {
+              "start": "2020-02-12T05:25:29+00:00"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/encounter",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "encounter",
+        "meta": {
+          "versionId": "6",
+          "lastUpdated": "2020-02-12T05:55:39.884+00:00",
+          "source": "#KHND491Iv1g2y1F2"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/ValueSet/v3-ActEncounterCode",
+          "code": "NONAC",
+          "display": "inpatient non-acute"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/v3-ActPriority",
+              "code": "R",
+              "display": "routine"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/ValueSet/encounter-participant-type",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ]
+              }
+            ],
+            "individual": {
+              "reference": "Practitioner/practitioner"
+            }
+          }
+        ],
+        "appointment": [
+          {
+            "reference": "Appointment/appointment"
+          }
+        ],
+        "period": {
+          "start": "2020-02-07T08:07:00+10:00",
+          "end": "2020-02-07T08:28:00+10:00"
+        },
+        "serviceProvider": {
+          "reference": "Organization/hospital-organization"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
