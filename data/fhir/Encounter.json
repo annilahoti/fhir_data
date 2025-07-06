@@ -1,18 +1,18 @@
 {
   "resourceType": "Bundle",
-  "id": "1e355d14-4efb-448e-a718-7297635be043",
+  "id": "7d75870b-03b8-4d4e-a4b3-e5eed43138b0",
   "meta": {
-    "lastUpdated": "2025-07-04T11:33:20.408+00:00"
+    "lastUpdated": "2025-07-06T10:42:25.743+00:00"
   },
   "type": "searchset",
   "link": [
     {
       "relation": "self",
-      "url": "https://hapi.fhir.org/baseR4/Encounter?_count=1000"
+      "url": "https://hapi.fhir.org/baseR4/Encounter?_count=20000"
     },
     {
       "relation": "next",
-      "url": "https://hapi.fhir.org/baseR4?_getpages=1e355d14-4efb-448e-a718-7297635be043&_getpagesoffset=500&_count=500&_pretty=true&_bundletype=searchset"
+      "url": "https://hapi.fhir.org/baseR4?_getpages=7d75870b-03b8-4d4e-a4b3-e5eed43138b0&_getpagesoffset=500&_count=500&_pretty=true&_bundletype=searchset"
     }
   ],
   "entry": [
